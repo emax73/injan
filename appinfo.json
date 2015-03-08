@@ -1,0 +1,46 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "emax@cosmostat.com",
+    "longName": "injan",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/face.png",
+                "name": "IMAGE_FACE",
+                "type": "png"
+            },
+            {
+                "file": "images/bt.on.png",
+                "name": "IMAGE_BT_ON",
+                "type": "png"
+            },
+            {
+                "file": "images/bt.off.png",
+                "name": "IMAGE_BT_OFF",
+                "type": "png"
+            },
+            {
+                "file": "images/battery.png",
+                "name": "IMAGE_BATTERY",
+                "type": "png"
+            },
+            {
+                "file": "fonts/PUPPgirG.ttf",
+                "name": "FONT_TIME_24",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "injan",
+    "uuid": "20dbac93-9a57-4b9b-a55a-8170b7366f62",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
