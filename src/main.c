@@ -201,13 +201,13 @@ void handle_init(void) {
   time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_TIME_24));
   date_font = fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD);
   
-  time_layer = text_layer_create(GRect(29, 18, 70, 28));
+  time_layer = text_layer_create(GRect(24, 18, 75, 28));
   text_layer_set_font(time_layer, time_font);
   text_layer_set_text_alignment(time_layer, GTextAlignmentCenter);
   text_layer_set_background_color(time_layer, GColorBlack);
   text_layer_set_text_color(time_layer, GColorWhite);
   
-  date_layer = text_layer_create(GRect(7, 46, 81, 20));
+  date_layer = text_layer_create(GRect(7, 46, 83, 20));
   text_layer_set_font(date_layer, date_font);
   text_layer_set_text_alignment(date_layer, GTextAlignmentCenter);
   text_layer_set_background_color(date_layer, GColorBlack);
